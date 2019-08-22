@@ -3,15 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://github.com/ChaudhariPrasad/Hugo-Personal-Blog/</loc>
+    <lastmod>2019-08-22T20:29:10+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://github.com/ChaudhariPrasad/Hugo-Personal-Blog/posts/my-second-post/</loc>
+    <lastmod>2019-08-22T20:29:10+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://github.com/ChaudhariPrasad/Hugo-Personal-Blog/posts/</loc>
+    <lastmod>2019-08-22T20:29:10+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://github.com/ChaudhariPrasad/Hugo-Personal-Blog/posts/my-first-post/</loc>
+    <lastmod>2019-08-22T13:59:38+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://github.com/ChaudhariPrasad/Hugo-Personal-Blog/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://github.com/ChaudhariPrasad/Hugo-Personal-Blog/tags/</loc>
   </url>
   
 </urlset>
