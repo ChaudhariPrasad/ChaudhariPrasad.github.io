@@ -8,12 +8,27 @@
   </url>
   
   <url>
-    <loc>/posts/my-second-post/</loc>
-    <lastmod>2019-09-08T00:33:25+05:30</lastmod>
+    <loc>/posts/my-fifth-post/</loc>
+    <lastmod>2019-09-08T00:33:55+05:30</lastmod>
   </url>
   
   <url>
     <loc>/posts/</loc>
+    <lastmod>2019-09-08T00:33:55+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/my-fourth-post/</loc>
+    <lastmod>2019-09-08T00:33:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/my-third-post/</loc>
+    <lastmod>2019-09-08T00:33:32+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/my-second-post/</loc>
     <lastmod>2019-09-08T00:33:25+05:30</lastmod>
   </url>
   
