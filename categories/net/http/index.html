@@ -4,13 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>My Fifth Post - Golang</title>
+	<title>net/http - Golang</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	
 	
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="alternate" type="application/rss+xml" href="/categories/net/http/index.xml" title="Golang">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/custom.css">
@@ -44,36 +45,33 @@
 		<div class="wrapper flex">
 			<div class="primary">
 			
-<main class="main" role="main">
-	<article class="post">
-		<header class="post__header">
-			<h1 class="post__title">My Fifth Post</h1>
-			<div class="post__meta meta">
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg>
-	<time class="meta__text" datetime="2019-09-08T00:33:55">September 08, 2019</time>
+<main class="main list" role="main">
+	<header class="main__header">
+		<h1 class="main__title">net/http</h1>
+	</header><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/posts/my-first-post/" rel="bookmark">
+			Golang - How to create simple HTTP server
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/golang" rel="category">Golang</a>, <a class="meta__link" href="/categories/net/http" rel="category">net/http</a></span>
 </div>
 </div>
-		</header><div class="content post__content clearfix">
-			<p><h1>Hii</h1><p>This is line 1.<!-- raw HTML omitted -->this is line 2.</p></p>
-
-<script type="application/javascript" src="https://gist.github.com/ChaudhariPrasad/f2ee9d6345506787b2cbebe06f244638.js"></script>
-
-
-		</div>
-	</article>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		package main import &#34;fmt&#34; import &#34;net/http&#34; type greetingHandler struct { greeting rune } func (gh *greetingHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) { smile := &#39;😀&#39; greeting := greetingHandler{smile} fmt.Fprintf(w, &#34;&lt;h1&gt;%c&lt;/h1&gt;&#34;, greeting.greeting ) } func main(){ fmt.Println(&#34;Hello!!!&#34;) http.Handle(&#34;/foo&#34;, new(greetingHandler)) http.ListenAndServe(&#34;:8080&#34;, nil) }
+	</div>
+</article>
 </main>
 
 
-<nav class="post-nav flex">
-	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="/posts/my-fourth-post/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">My Fourth Post</p></a>
-	</div>
-</nav>
-
-
 			</div>
-			<aside class="sidebar"><div class="widget-search widget">
+			
+<aside class="sidebar sidebar--left"><div class="widget-search widget">
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
 		<label>
 			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q" aria-label="SEARCH...">
